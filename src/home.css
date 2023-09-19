@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#home{
+    margin-top: 100px;
+   margin: 30px;
+}
+
+#discount{
+    background-color: #CC071E;
+    color: white;
+    height: 80px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 110px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#tagline{
+    font-size: 50px;
+    padding-top: 10px;
+    padding-left: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.Home-clothing {
+    text-align: center;
+    padding: 50px;
+}
+
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.item-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.item-card:hover {
+    transform: translateY(-5px);
+}
+
+.item-card img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.banner {
+    background-color: black;
+    color: white;
+}
+    
+.discount {
+    font-size: 24px;
+    background-color:black ;
+}
+  
+.percentage {
+    font-size: 36px;
+    background-color: #CC071E;
+  }
+  
+ .message {
+    font-size: 18px;
+    background-color: #CC071E;
+  }

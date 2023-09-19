@@ -1,0 +1,52 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.shirt-section {
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.shirt-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.shirt-item {
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.shirt-item img {
+    max-width: 100%;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#shirth2{
+    height: 60px;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 60px;
+}

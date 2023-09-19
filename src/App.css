@@ -1,0 +1,132 @@
+*
+{
+    margin: 0;
+    padding: 0;
+   
+    
+}
+#topmenu{
+    background-color: black;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 4px solid black;
+
+} 
+
+#topmenu ul {
+    display: flex;
+}
+
+#topmenu ul li {
+    list-style: none;
+    padding: 30px;
+}
+
+#topmenu ul li a{
+    font-size: 29px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-weight: 400;
+}   
+
+
+#input{
+    height: 20px;
+    width:100%;
+    border-radius: 15px;
+    margin-left: 140px;
+    padding: 15px;
+    font-size: 15px;
+   
+}
+
+#topmenu ul li a:hover 
+{
+   color: brown;
+}
+
+#aboutLink
+{  
+   width: 250px;
+    height: 200px;
+    background-color: burlywood;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#aboutData
+{
+    width: 700px;
+    height: 200px;
+    padding: 20px;
+    background-color: lightpink;
+    float: left;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+#topmenu ul li span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    color: brown;
+    font-size: 30px;
+  border-right: 2px solid brown;
+  border-top: 1px solid green;
+}
+
+
+/* footer*/
+#data {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  #data2 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  #data2 p{
+    color: white;
+  }
+  #data3 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  #data3 p{
+    color: white;
+  }
+  #footer {
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    gap: 10rem;
+    padding-left: 8rem;
+    color: white;
+  }
+  #copy {
+    display: flex;
+    flex-direction: column;
+  }
+  #copyright {
+    margin: auto;
+  }
+  
+  #social {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: larger;
+  }
+  
